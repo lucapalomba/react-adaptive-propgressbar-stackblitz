@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { render } from 'react-dom';
-import './style.scss';
+import './style.css';
 
 // TODO use Lint (When i discover how to do this in StackBlitz ;) );
 // TODO perhaps can be a functional Component (see here-> https://codepen.io/lucapalomba/pen/oGYNJp ). But for future purposes I need React Transitions and LifeCycles.
