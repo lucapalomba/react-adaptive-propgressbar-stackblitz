@@ -1,0 +1,24 @@
+.progressbar-container {
+  position: relative;
+  height: 100%;
+  text-align: center; }
+  .progressbar-container .label {
+    position: absolute;
+    width: 100%;
+    margin-top: 60px;
+    z-index: 2; }
+  .progressbar-container .legend {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 3px;
+    z-index: 2; }
+  .progressbar-container .progress {
+    position: relative;
+    height: 100%;
+    text-align: left; }
+    .progressbar-container .progress .child {
+      height: 100%;
+      position: relative;
+      z-index: 1;
+      display: inline-block; }
