@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { render } from 'react-dom';
-import Hello from './Hello';
 import './style.scss';
 
 // TODO use Lint (When i discover how to do this in StackBlitz ;) );
@@ -11,7 +10,7 @@ import './style.scss';
 class AdaptiveProgressBar extends React.Component {
   checkPercentagesData(percentagesSeries) {
     const realPercentages = percentagesSeries.map(
-      ({ value, color } = percentage) => {
+      ({ value, color }) => {
         value = value > 100 ? 100 : value < 0 ? 0 : value;
         color = color || this.props.colors.activeColor;
         return { value, color };
