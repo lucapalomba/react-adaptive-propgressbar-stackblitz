@@ -3,13 +3,16 @@
   "description": "",
   "homepage": "https://stackblitz.com/edit/react-adaptiveprogressbar",
   "dependencies": {
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-15": "^1.0.5",
     "eslint": "^4.14.0",
     "node-sass-chokidar": "0.0.3",
     "npm-run-all": "^4.1.2",
     "prop-types": "15.6.0",
     "react": "15.6.1",
     "react-dom": "15.6.1",
-    "react-scripts": "1.0.10"
+    "react-scripts": "1.0.10",
+    "react-test-renderer": "^16.2.0"
   },
   "version": "0.1.0",
   "private": true,
