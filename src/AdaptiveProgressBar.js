@@ -27,7 +27,7 @@ class AdaptiveProgressBar extends React.Component {
         const { percentages = [] } = this.props; 
         const { text = false } = this.props;
         const { legend: { enabled: legendEnabled = false } = false } = this.props;
-        const { colors : { activeColor = 'red', inactiveColor = 'blue', labelColor = 'white' } = false } = this.props;
+        const { colors : { activeColor = 'red', inactiveColor = 'transparent', labelColor = 'white' } = false } = this.props;
 
         // avoid data pollution; TODO, check data all togheter, thresholds and sums
         const realPercentages = this.checkPercentagesData(percentages);
