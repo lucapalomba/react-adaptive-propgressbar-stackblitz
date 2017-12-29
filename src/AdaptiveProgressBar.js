@@ -7,6 +7,7 @@ import './style.css';
 // TODO convert/test in 16.X ?
 
 class AdaptiveProgressBar extends React.Component {
+    
     checkPercentagesData(percentagesSeries) {
         const realPercentages = percentagesSeries.map(
             ({ value, color }) => {
